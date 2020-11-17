@@ -50,6 +50,9 @@ a{
     text-decoration: none;
     color: #FFF;
 }
+a:hover{
+    opacity: 0.8;
+}
 .scroll:hover{
     border-bottom: 2px solid rgba(0, 102, 255, 0.5);
 }
@@ -116,6 +119,10 @@ button{
 }
 button:hover{
     opacity: 0.8;
+    transform: scale(1.025);
+}
+.block-4-img-socials:hover{
+    transform: scale(1.025);
 }
 ul {
     list-style: none;
@@ -300,6 +307,9 @@ iframe{
     position: fixed;
     top: 15px;
     right: 70px;
+}
+#menu:hover{
+    transform: scale(1.05);
 }
 .header-box-ul-menu{
     display: none;
