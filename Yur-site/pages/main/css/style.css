@@ -312,7 +312,8 @@ iframe{
     color: #FFF;
     text-align: center;
     padding: 20px 0;
-    background: rgba(0, 102, 255, 0.95);
+    background: rgba(4, 4, 4, 90%);
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
 .header-box-li-menu::before{
     content:"";
