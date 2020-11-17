@@ -162,7 +162,11 @@ input::placeholder { color: rgba(255,255,255,0.3);}
 
 
 .block-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/01-1980.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/01-1980.jpg") no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     padding-top: 130px;
 }
 .content-1-box{
@@ -188,7 +192,10 @@ input::placeholder { color: rgba(255,255,255,0.3);}
 
 
 .block-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/02-1980.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/02-1980.jpg") no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;;
 }
 .block-2-img{
     width: 100px;
@@ -208,7 +215,10 @@ input::placeholder { color: rgba(255,255,255,0.3);}
 
 
 .block-3{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/03-1980.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/03-1980.jpg") no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;;
 }
 .block-3-input{
     Font-family: "open-sans-L";
@@ -231,7 +241,10 @@ form>div{
 
 
 .block-4{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/04-1980.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../../../assets/img/04-1980.jpg") no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;;
 }
 select{
     background: rgba(196, 196, 196, 0.4);
