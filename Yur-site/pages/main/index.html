@@ -28,7 +28,7 @@
     <div class="block-1 block" id="block-1">
         <div class="block-1-box box">
             <div class="content-1-box">
-                <div><h1 class="text-h1">Юридические услуги</h1></div>
+                <div><h1 class="text-h1">Юридические</br> услуги</h1></div>
                 <div class="block-1-info">
                     <ul class="block-1-ul ul">
                         <li class="block-1-li li">Банкротство</li>
@@ -102,10 +102,13 @@
             <h2 class="text-h2">Контакты</h2>
             <div class="content-4-box content-box">
                 <div class="block-4-content content">
-                        <select id="select">
-                            <option value="1">г. Санкт-Петербург</option>
-                            <option value="2" selected>г. Нижний-Новгород</option>
-                        </select>
+                    <p class="text-p city-name active-city" id="input-ng">г. Нижний-Новгород</p>
+                    <p class="text-p city-name no-active-city" id="input-spb">г. Санкт-Петербург</p>
+
+                        <!-- <select id="select">
+                            <option value="1" id="sel-1">г. Санкт-Петербург</option>
+                            <option value="2" id="sel-2" selected>г. Нижний-Новгород</option>
+                        </select> -->
                 </div>
                 <div class="city-spb city" id="spb">
                     <div class="map-spb map">
@@ -165,17 +168,35 @@
         $(function(){
             $("#tel").mask("+7(999) 999-9999");
         });
-
-        $('#select').click(function(){
-            var value = $('#select').val();
-	        if(value == 1){
+        $(document).ready(function() {
+            $('#input-spb').click(function(){
+                $("p").removeClass("active-city");
+                $("p").removeClass("no-active-city");
+                $("#input-ng").addClass("no-active-city");
+                $("#input-spb").addClass("active-city");
                 ng.style.display = "none";
                 spb.style.display = "block";
-            }
-            else if(value == 2){
+            });
+            $('#input-ng').click(function(){
+                $("p").removeClass("active-city");
+                $("p").removeClass("no-active-city");
+                $("#input-spb").addClass("no-active-city");
+                $("#input-ng").addClass("active-city");
                 ng.style.display = "block";
                 spb.style.display = "none";
-            }
+            });
+        //     $('#select').click(function(){
+        //         var value = $('#select').val();
+	    //         if(value == 1){
+        //             ng.style.display = "none";
+        //             spb.style.display = "block";
+        //         }
+        //         else if(value == 2){
+        //             ng.style.display = "block";
+        //             spb.style.display = "none";
+        //         }
+        //         console.log(value);
+        //    });
         });
 
 	    $( "#menu" ).click(function(){ 
