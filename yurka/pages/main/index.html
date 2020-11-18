@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yurka</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-box">
+            <ul class="header-box-ul ul">
+                <li class="header-box-li li"><a href="#block-1" class="scroll" id="rel-1">Главная</a></li>
+                <li class="header-box-li li"><a href="#block-2" class="scroll" id="rel-2">Услуги</a></li>
+                <li class="header-box-li li"><a href="#block-3" class="scroll" id="rel-3">Консультация</a></li>
+                <li class="header-box-li li"><a href="#block-4" class="scroll" id="rel-4">Контакты</a></li>
+            </ul>
+            <img src="../../assets/img/menu.svg" alt="" id="menu" class="img-menu">
+        </div>
+    </header>
+    <ul class="header-box-ul-menu ul" id="mobile-menu">
+        <li class="header-box-li-menu li"><a href="#block-1" class="scroll active" id="rel-1">Главная</a></li>
+        <li class="header-box-li-menu li"><a href="#block-2" class="scroll" id="rel-2">Услуги</a></li>
+        <li class="header-box-li-menu li"><a href="#block-3" class="scroll" id="rel-3">Консультация</a></li>
+        <li class="header-box-li-menu li"><a href="#block-4" class="scroll" id="rel-4">Контакты</a></li>
+    </ul>
+    <div class="block-1 block" id="block-1">
+        <div class="block-1-box box">
+            <div class="content-1-box">
+                <div><h1 class="text-h1">Юридические</br> услуги</h1></div>
+                <div class="block-1-info">
+                    <ul class="block-1-ul ul">
+                        <li class="block-1-li li">Банкротство</li>
+                        <li class="block-1-li li">Банкротство</li>
+                        <li class="block-1-li li">Банкротство</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-button"><a href="#block-4" class="scroll"><button class="block-1-button button">Связаться</button></a></div>
+        </div>
+    </div>
+    <div class="block-2 block" id="block-2">
+        <div class="block-2-box box">
+            <h2 class="text-h2">Услуги</h2>
+            <div class="content-2-box content-box">
+                <div class="block-2-content content">
+                    <div class="block-2-content-1 block-2-info">
+                        <img src="../../assets/img/rub.png" alt="" class="block-2-img">
+                        <p class="text-p-b">Текст</p>
+                        <ul class="block-2-ul ul">
+                            <li class="block-2-li li text-p">Описание</li>
+                            <li class="block-2-li li text-p">Описание</li>
+                            <li class="block-2-li li text-p">Описание</li>
+                        </ul>
+                    </div>
+                    <div class="block-2-content-2 block-2-info">
+                        <img src="../../assets/img/libra.png" alt="" class="block-2-img">
+                        <p class="text-p-b">Текст</p>
+                        <ul class="block-2-ul ul">
+                            <li class="block-2-li li text-p">Описание</li>
+                            <li class="block-2-li li text-p">Описание</li>
+                            <li class="block-2-li li text-p">Описание</li>
+                        </ul>
+                    </div>
+                    <div class="block-2-content-3 block-2-info">
+                        <img src="../../assets/img/doc.png" alt="" class="block-2-img">
+                        <p class="text-p-b">Текст</p>
+                        <ul class="block-2-ul ul">
+                            <li class="block-2-li li text-p">Описание</li>
+                            <li class="block-2-li li text-p">Описание</li>
+                            <li class="block-2-li li text-p">Описание</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-3 block" id="block-3">
+        <div class="block-3-box box">
+            <h2 class="text-h2">Бесплатная консультация</h2>
+            <div class="content-3-box content-box">
+                <div class="block-3-content content">
+                    <form action="/my-handling-form-page" method="post"> 
+                        <div>
+                            <input type="text" id="name" placeholder="ФИО" name="user_name" class="block-3-input" required/>
+                        </div>
+                        <div>
+                            <input type="tel" id="tel" placeholder="+7 (999) 999-9999" name="user_phone" class="block-3-input" required/>
+                        </div>
+                        <div>
+                            <button type="submit" class="block-3-button">Получить консультацию</button>
+                        </div>
+                    </form>
+                    <!-- pattern="+7[0-9]{3}[0-9]{3}[0-9]{4}" -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-4 block" id="block-4">
+        <div class="block-4-box box">
+            <h2 class="text-h2">Контакты</h2>
+            <div class="content-4-box content-box">
+                <div class="block-4-content content">
+                    <p class="text-p city-name active-city" id="input-ng">г. Нижний-Новгород</p>
+                    <p class="text-p city-name no-active-city" id="input-spb">г. Санкт-Петербург</p>
+
+                        <!-- <select id="select">
+                            <option value="1" id="sel-1">г. Санкт-Петербург</option>
+                            <option value="2" id="sel-2" selected>г. Нижний-Новгород</option>
+                        </select> -->
+                </div>
+                <div class="city-spb city" id="spb">
+                    <div class="map-spb map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d511624.09563414333!2d29.534264150755607!3d59.93991383834162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1605637299129!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="address-spb address">
+                        <div class="city-contacts">
+                            <img src="../../assets/img/place.png" alt="" class="block-4-img-contact">
+                            <p class="text-p-2"><a href="#">г. Санкт-Петербург</a> </p>
+                        </div>
+                        <div class="city-contacts">
+                            <img src="../../assets/img/phone.png" alt="" class="block-4-img-contact">
+                            <p class="text-p-2"><a href="tel:+79998904534">+7 (999) 890-45-34</a></p>
+                        </div>
+                        <div class="socials">
+                            <a href="#"><img src="../../assets/img/telegram.png" alt="" class="block-4-img-socials telegram"></a>
+                            <a href="#"><img src="../../assets/img/whatsapp.png" alt="" class="block-4-img-socials whatsapp"></a>
+                            <a href="#"><img src="../../assets/img/viber.png" alt="" class="block-4-img-socials"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="city-ng city" id="ng">
+                    <div class="map-ng map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141707.80392527065!2d43.78608295264967!3d56.292128983294575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1605637571694!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="address-ng address">
+                        <div class="city-contacts">
+                            <img src="../../assets/img/place.png" alt="" class="block-4-img-contact">
+                            <p class="text-p-2"><a href="#">г. Нижний-Новгород</a> </p>
+                        </div>
+                        <div class="city-contacts">
+                            <img src="../../assets/img/phone.png" alt="" class="block-4-img-contact">
+                            <p class="text-p-2"><a href="tel:+78677785676">+7 (867) 778-56-76</a></p>
+                        </div>
+                        <div class="socials">
+                            <a href="#"><img src="../../assets/img/telegram.png" alt="" class="block-4-img-socials telegram"></a>
+                            <a href="#"><img src="../../assets/img/whatsapp.png" alt="" class="block-4-img-socials whatsapp"></a>
+                            <a href="#"><img src="../../assets/img/viber.png" alt="" class="block-4-img-socials"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-box">
+            <p class="text-p-b footer-text">Остались вопросы?</p>
+            <p class="text-p footer-text"><a href="mail:mail@mail.ru">mail@mail.ru</a></p>
+        </div>
+    </footer>
+    <script src="../../jquery.js"></script>
+    <script src="../../jquery.maskedinput.min.js"></script>
+    <script src="../../bootstrap.min.js"></script>
+    <script src="../../src/js/scripts.js"></script>
+    <script>
+        $(function(){
+            $("#tel").mask("+7(999) 999-9999");
+        });
+        $(document).ready(function() {
+            $('#input-spb').click(function(){
+                $("p").removeClass("active-city");
+                $("p").removeClass("no-active-city");
+                $("#input-ng").addClass("no-active-city");
+                $("#input-spb").addClass("active-city");
+                ng.style.display = "none";
+                spb.style.display = "block";
+            });
+            $('#input-ng').click(function(){
+                $("p").removeClass("active-city");
+                $("p").removeClass("no-active-city");
+                $("#input-spb").addClass("no-active-city");
+                $("#input-ng").addClass("active-city");
+                ng.style.display = "block";
+                spb.style.display = "none";
+            });
+        //     $('#select').click(function(){
+        //         var value = $('#select').val();
+	    //         if(value == 1){
+        //             ng.style.display = "none";
+        //             spb.style.display = "block";
+        //         }
+        //         else if(value == 2){
+        //             ng.style.display = "block";
+        //             spb.style.display = "none";
+        //         }
+        //         console.log(value);
+        //    });
+        });
+
+	    $( "#menu" ).click(function(){ 
+	      $( "#mobile-menu" ).slideToggle();
+        });
+        $( ".scroll" ).click(function(){ 
+            $( "#mobile-menu" ).hide(300);
+            var el = $(this);
+            var dest = el.attr('href');
+            if(dest !== undefined && dest !== '') { 
+                $('html').animate({ 
+    	            scrollTop: $(dest).offset().top
+                }, 500
+                );
+            }
+            return false;
+        });
+        $(window).on('scroll', function() {
+            var point = $(document).scrollTop();
+            let home = $("#block-1").offset().top;
+            let educ = $("#block-2").offset().top;
+            let skill = $("#block-3").offset().top;
+            let prac = $("#block-4").offset().top;
+            // console.log(`point = ${point} block-1 = ${home} block-2 = ${educ} block-3 = ${skill} block-4 = ${prac}`);
+            if (point < home + educ && point >= home) {
+                $("a").removeClass("active");
+                $("#rel-1").addClass("active");
+            }
+            if (point >= home + educ - 500 && point < skill) {
+                $("a").removeClass("active");
+                $("#rel-2").addClass("active");
+            }
+            if (point >= skill - 500 && point < prac) {
+                $("a").removeClass("active");
+                $("#rel-3").addClass("active");
+            }
+            if (point >= prac - 500) {
+                $("a").removeClass("active");
+                $("#rel-4").addClass("active");
+            }
+        });
+        
+    </script>
+</body>
+</html>
