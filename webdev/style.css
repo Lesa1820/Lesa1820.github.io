@@ -402,3 +402,6 @@ footer{
 .footer-a > .body-14-reg:hover{
     color: rgba(255, 255, 255, 0.6);
 }
+.block{
+    width: 100%;
+}
