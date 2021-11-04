@@ -1,6 +1,6 @@
 # Тестовые ссылки
 Yurka: https://lesa1820.github.io/yurka/pages/main/
-</dr>
+</br>
 Webdev: https://lesa1820.github.io/webdev
-</dr>
+</br>
 Web-test: https://lesa1820.github.io/web-test
