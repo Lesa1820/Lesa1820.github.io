@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'Roboto-bold';   
+    src: url("assets/fonts/Roboto-Bold.ttf");
+    }
+@font-face {
+    font-family: 'Roboto';   
+    src: url("assets/fonts/Roboto-Thin.ttf");
+    }
+
+html{
+    width: 1600px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 18px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+button{
+    font-family: 'Roboto-bold';  
+
+    flex-direction: row;
+    padding: 15px 47px;
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+    color: white;
+    border: none;
+}
+button > span{
+    position: static;
+    width: 90px;
+    height: 16px;
+    left: calc(50% - 90px/2);
+    top: calc(50% - 16px/2);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+.body-14-reg{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: left;
+    color: #4E4E4E;    
+}
+.button:hover{
+    background: #009CC2;
+    cursor: pointer;
+}
+.webdev{
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 0;
+    left: 35px;
+    font-family: 'Roboto-bold';  
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+.wrapper{
+    width: 1600px;
+    height: 766px;
+    background: url(assets/image/bg-image.png);
+}
+header{ 
+    width: 1600px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
+}
+nav{
+    font-family: 'Roboto'; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%; 
+    width: 610px;
+    height: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr;
+    margin: auto auto;
+    text-align: center;
+}
+nav > div > a{
+    color: white;
+}
+nav > div > a:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+.menu{
+    margin: auto auto;
+}
+.logo{
+    width: 44px;
+    height: 44px;
+    margin: auto auto;
+}
+.title-text{
+    color:white;
+    margin-top: 136px;
+}
+.title-text > h2{
+    font-family: 'Roboto-bold';  
+    height: 75px;
+    margin: 0 auto;
+
+    font-size: 64px;
+    line-height: 75px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+.title-text > p{
+    width: 504px;
+    height: 50px;
+    margin: 20px auto;
+}
+.button-wrapper{
+    position: absolute;
+    left: 707px;
+    top: 406px;
+}
+.sotials > div{
+    position: absolute;
+    width: 170px;
+    left:715px;
+    top: 657px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sotials > div > div{
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+}
+.sotialIn{
+    position: relative;
+    height: 10px;
+}
+.sF{
+    left: 7px;
+    top: -23px;
+}
+.sY{
+    left: 4px;
+    top: -23px;
+}
+.sotial:hover{
+    transform: scale(1.1);
+}
+
+
+.content-blok-2{
+    width: 1600px;
+    height: 842px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content-image-1{
+    width: 407px;
+    height: 582px;
+}
+.content-blok-2-1{
+    margin: 295px 135px auto 270px ;
+}
+.content-blok-2-2{
+    margin: 120px 270px auto 123px ;
+}
+.h2-24-bold{
+    font-family: Roboto-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.content-blok-2-1 > p{
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+}
+
+
+
+.content-blok-3{
+    width: 1600px;
+    height: 504px;
+    background: #F5F6F7;
+}
+.review{
+    float: left;
+    width: 675px;
+    height: 504px;
+}
+.galery{
+   float: right;
+    width: 925px;
+    height: 504px;
+}
+.galeryImg{
+    margin: 102px 0 0 28px;
+}
+.arrows{
+    font-weight: 700;
+    position: relative;
+    font-size: 18px;
+    line-height: 25px;
+    left: 577px;
+    top: 77px;
+}
+.arrow-right{
+transform: rotate(180deg);
+}
+.icon{
+    margin: 0 126.5px 0 126.5px;
+}
+.review > div{
+    margin: 155px 114px auto 268px;
+}
+.review-text > h3{
+    font-family: 'Roboto-bold';  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.review-text > p{
+    text-align: center;
+}
+.arrow:hover{
+    filter: drop-shadow(0px 0px 1px #009CC2);
+}
+
+
+.content-blok-4{
+    width: 1600px;
+    height: 842px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content-blok-4-1{
+    margin: 120px 139px auto 270px ;
+}
+.content-blok-4-2{
+    margin: 319px 378px auto 0 ;
+}
+.content-blok-4-2 > p{
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+}
+
+
+.content-blok-5{
+    width: 1600px;
+    height: 598px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/image/bg-image-2.png);
+}
+.content-blok-5 > div{
+    padding-top: 205px;
+}
+.content-blok-5 > div > h2{
+    font-family: Roboto-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.forma-email{
+    width: 406px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.forma-email > input{
+    width: 316px;
+    height: 46px;
+    float: left;
+    padding: 0;
+    padding-left: 24px;
+    margin: 0;
+    border: none;
+    
+}
+.button-email{
+    width: 66px;
+    float: right;
+    padding: 0;
+}
+
+
+.content-blok-6{
+    width: 1600px;
+    height: 468px;
+}
+.content-blok-6-1{
+    padding-top: 120px;
+    text-align: center;
+}
+.content-blok-6-1 > p{
+    text-align: center;
+    width: 474px;
+    margin: 0 auto;
+}
+.content-blok-6-2 > div{
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.content-blok-6-2 > div > button{
+    width: 188px;
+    height: 50px;
+    padding: 0;
+}
+.content-blok-6-2 > div > button:nth-child(1):hover{
+    transform: rotate(2deg) scale(1.05);
+}
+.content-blok-6-2 > div > button:nth-child(2):hover{
+    transform: rotate(-2deg) scale(1.05);
+}
+.content-blok-6-2 > div > button > span{
+    padding-top: 18px;
+    font-family: Roboto-bold;
+    width: 100px;
+    margin-left: 19px;
+    float: left;
+}
+.content-blok-6-2 > div > button > div{
+    width: 60px;
+    height: 37px;
+    float: right;
+    background: #009CC2;
+    padding-top: 13px;
+}
+footer{
+    width: 1600px;
+    height: 184px;  
+    background: #000;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+}
+.footer-coloms-1 > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 236px;
+    margin: 0 auto;
+    margin-top: 73px;
+}
+.footer-a > .body-14-reg{
+    color:white;
+    text-align: center;
+}
+.footer-coloms-1 > div > div:nth-child(-n+2){
+    border-right: 1px solid #4E4E4E;
+}
+.footer-coloms-3 > div{
+    margin: 0 auto;
+    margin-top: 73px;
+}
+.footer-a{
+    text-align: center;
+}
+.footer-coloms-3 > div > p{
+    color: #818181;
+    text-align: center;
+}
+.footer-a > .body-14-reg:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
